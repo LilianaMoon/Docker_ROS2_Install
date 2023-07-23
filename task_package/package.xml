@@ -1,0 +1,17 @@
+<package format="3">
+  <name>task_package</name>
+  <version>1.0.0</version>
+<description>package for Publisher</description>
+<maintainer email="hoefner.l@gmx.de">Hoefner L</maintainer>
+<license>Apache License 2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+<depend>rclcpp</depend>
+<depend>std_msgs</depend>
+
+<export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
